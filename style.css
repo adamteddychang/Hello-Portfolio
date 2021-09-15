@@ -3,9 +3,16 @@
 body {
   margin: 0;
   background-color: #1c1a19;
-  background-image: url(Images/Illustration.png);
+
+  /* background-image: url(Images/Illustration.png);
   background-repeat: no-repeat;
-  background-position: 100% 120%;
+  background-position: 100% 120%; */
+}
+
+#back-img {
+  position: absolute;
+  right: 0;
+  top: 400px;
 }
 
 .head-container {
