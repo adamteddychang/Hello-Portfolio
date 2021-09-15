@@ -1,6 +1,6 @@
 # Hello-Portfolio
 
-> In this project, I will set up a "Hello-Portfolio" repository. My goal here is to create a both mobile and desktop friendly portfolio page. 
+> In this project, I will set up a "Hello-Portfolio" repository. My goal here is to create the first page of a mobile-friendly portfolio page. 
 
 
 
@@ -15,7 +15,7 @@
 - No Technologies used
 
 ## Live Demo
-No Demo
+![screenshot](Images/Template_2_sample.PNG)
 
 
 
