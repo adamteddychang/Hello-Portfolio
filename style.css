@@ -1,37 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto:wght@700&display=swap');
+
 body {
   margin: 0;
+  background-color: #1c1a19;
 }
-
 
 .head-container {
   display: flex;
   justify-content: space-between;
   padding-left: 24px;
   padding-right: 19px;
-  background-color: #3C3A39;
-  color: #FFFFFF;
-  
+  background-color: #3c3a39;
+  color: #fff;
 }
+
 #name {
   line-height: 24px;
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
 }
-#menu-btn{
+
+#menu-btn {
   margin-top: 20px;
   width: 18px;
   height: 12px;
- 
 }
 
-#logo {
-  margin: 5px 5px;
-}
 .main-page {
   border: 2px solid black;
-  padding-top: 20px;
-  margin-top: 20px;
-  margin-left: 20px;
-  margin: 20px 10px 20px 10px;
-  padding: 30px;
+  margin: 0;
+  padding: 120px 24px 120px 24px;
+}
+
+#main-title {
+  font-size: 56px;
+  line-height: 64px;
+  color: #ff6b00;
+  margin-bottom: 12px;
+}
+
+#second-title {
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  color: #fff5e1;
+  line-height: 32px;
+  margin-bottom: 0;
+}
+
+#description {
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  color: #fff5e1;
+  line-height: 32px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#main-p {
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 12px;
+  margin-bottom: 24px;
 }
