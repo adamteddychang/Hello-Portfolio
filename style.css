@@ -1,9 +1,37 @@
+body {
+  margin: 0;
+}
+
+
 .head-container {
   display: flex;
   justify-content: space-between;
-  border: 2px solid black;
+  padding-left: 24px;
+  padding-right: 19px;
+  background-color: #3C3A39;
+  color: #FFFFFF;
+  
+}
+#name {
+  line-height: 24px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+#menu-btn{
+  margin-top: 20px;
+  width: 18px;
+  height: 12px;
+ 
 }
 
 #logo {
   margin: 5px 5px;
+}
+.main-page {
+  border: 2px solid black;
+  padding-top: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin: 20px 10px 20px 10px;
+  padding: 30px;
 }
