@@ -5,7 +5,7 @@ body {
   background-color: #1c1a19;
   background-image: url(Images/Illustration.png);
   background-repeat: no-repeat;
-  background-position:100% 100%;
+  background-position: 100% 120%;
 }
 
 .head-container {
@@ -39,6 +39,7 @@ body {
   font-size: 56px;
   line-height: 64px;
   color: #ff6b00;
+  margin-top: 0;
   margin-bottom: 12px;
 }
 
@@ -68,7 +69,6 @@ body {
 
 .icon-container {
   display: flex;
-  
 }
 
 .icons {
