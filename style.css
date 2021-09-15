@@ -76,13 +76,13 @@ body {
 
 .icon-container {
   display: flex;
-  
 }
 
 ul {
   display: flex;
-  padding-left: 0;  
+  padding-left: 0;
 }
+
 li {
   justify-self: flex-start;
   padding: 12px;
