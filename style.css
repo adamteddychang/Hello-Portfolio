@@ -3,6 +3,9 @@
 body {
   margin: 0;
   background-color: #1c1a19;
+  background-image: url(Images/Illustration.png);
+  background-repeat: no-repeat;
+  background-position:100% 100%;
 }
 
 .head-container {
@@ -61,4 +64,13 @@ body {
   font-family: 'Poppins', sans-serif;
   margin-top: 12px;
   margin-bottom: 24px;
+}
+
+.icon-container {
+  display: flex;
+  
+}
+
+.icons {
+  padding-right: 20px;
 }
