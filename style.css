@@ -100,7 +100,7 @@ li {
 
 #works-container {
   display: grid;
-  grid-row: inherit;
+  column-gap: initial;
   padding-top: 120px;
   background-color: #fff;
   text-align: center;
@@ -174,10 +174,13 @@ li {
 }
 
 .bk-img-proj {
+  display: flex;
+  flex-direction: column;
   padding-top: 84px;
   background-image: url(Images/project_background.png);
   background-repeat: no-repeat;
   margin: 24px 24px 0 24px;
+  width: 327px;
 }
 
 .bk-img-title {
@@ -227,9 +230,6 @@ li {
 }
 
 .st-see-btn_2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
   padding: 12px;
   border-radius: 0;
   background-color: #ff6b00;
@@ -239,7 +239,6 @@ li {
   line-height: 24px;
   color: #fff;
   font-weight: 700;
-  width: 100%;
 }
 
 .bk-img-proj:last-child {
