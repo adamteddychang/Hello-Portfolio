@@ -18,6 +18,9 @@
 ## Live Demo
 ![screenshot](Images/Template_2_sample.PNG)
 
+## Live Link
+(https://adamteddychang.github.io/Hello-Portfolio)
+
 ## Getting Started
 
 **This is an example of how you may give instructions on setting up your project locally.**
