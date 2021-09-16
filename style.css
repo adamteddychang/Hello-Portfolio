@@ -3,13 +3,9 @@
 
 body {
   margin: 0;
-
-  /* background-image: url(Images/Illustration.png);
-  background-repeat: no-repeat;
-  background-position: 100% 120%; */
 }
 
-#back-img {
+.back-img {
   position: absolute;
   right: 0;
   top: 400px;
@@ -100,7 +96,8 @@ li {
 
 #works-container {
   display: grid;
-  column-gap: initial;
+  grid-template-columns: 1fr;
+  align-items: center;
   padding-top: 120px;
   background-color: #fff;
   text-align: center;
@@ -243,4 +240,56 @@ li {
 
 .bk-img-proj:last-child {
   margin-bottom: 120px;
+}
+
+.about_me {
+  background-color: #1c1a19;
+  margin: 0;
+  background-image: url(Images/illustration-about-me-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: 100% 99%;
+}
+
+.about_me_title {
+  color: #ff6b00;
+  padding-top: 120px;
+  font-family: 'Crete Round', sans-serif;
+  font-size: 72px;
+  line-height: 88px;
+  margin: 0;
+  text-align: center;
+}
+
+.about_me_p {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  padding: 24px;
+  margin: 0;
+}
+
+.about_me_d {
+  height: 652px;
+  border-bottom: 1px solid #fff;
+  margin: 0 24px 0 24px;
+}
+
+.st-see-btn_3 {
+  padding: 12px;
+  border-radius: 0;
+  background-color: #ff6b00;
+  border: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  font-weight: 700;
+  margin-left: 24px; 
+}
+
+.tech {
+  background-color: #1c1a19;
+  color: #fff;
+  margin: 0;
 }
