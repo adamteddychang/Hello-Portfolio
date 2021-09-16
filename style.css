@@ -206,7 +206,7 @@ li {
   padding-bottom: 12px;
 }
 
-#lang-contain_2 {
+.lang-contain_2 {
   display: flex;
   padding-left: 16px;
 }
@@ -226,7 +226,7 @@ li {
   background: rgba(255, 255, 255, 0.24);
 }
 
-#st-see-btn_2 {
+.st-see-btn_2 {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -241,3 +241,5 @@ li {
   font-weight: 700;
   width: 100%;
 }
+
+
