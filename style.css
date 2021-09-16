@@ -100,6 +100,7 @@ li {
 
 #works-container {
   display: grid;
+  grid-row: inherit;
   padding-top: 120px;
   background-color: #e5e5e5;
   text-align: center;
@@ -170,4 +171,36 @@ li {
   line-height: 24px;
   color: #fff;
   font-weight: 700;
+}
+
+.bk-img-proj {
+  padding-top: 84px;
+  background-image: url(Images/project_background.png);
+  background-repeat: no-repeat;
+  margin: 24px 24px 0 24px;
+}
+
+.bk-img-title {
+  font-family: 'Crete Round', sans-serif;
+  color: #fff;
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: 400;
+  text-align: left;
+  padding: 16px;
+  margin: 0;
+  padding-bottom: 12px;
+}
+
+.bk-img-p {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  padding: 16px;
+  padding-top: 0;
+  margin: 0;
+  text-align: left;
+  padding-bottom: 12px;
 }
