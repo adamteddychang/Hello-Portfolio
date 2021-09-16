@@ -102,11 +102,7 @@ li {
   display: grid;
   padding-top: 120px;
   background-color: #e5e5e5;
-  text-align: center;  
-}
-
-.projects-img {
-  
+  text-align: center;
 }
 
 .works-title {
@@ -118,6 +114,8 @@ li {
   padding-bottom: 24px;
   border-bottom: 1px solid #212121;
   text-align: center;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 .projects-title {
@@ -128,17 +126,32 @@ li {
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
-  color: #091E42; 
+  color: #091e42;
   margin-top: 24px;
   margin-bottom: 12px;
 }
+
 #projects-text {
-  display: flex; 
-  margin: 0 24px 0 24px;  
+  display: flex;
+  margin: 0 24px 0 24px;
   font-family: 'Inter', sans-serif;
   font-size: 16px;
   line-height: 24px;
   text-align: left;
 }
 
+#lang-contain {
+  padding-left: 24px;
+}
+
+.lang-li {
+  list-style-type: none;
+  border: 1px solid #8993A4;
+  margin-right: 12px;
+  padding: 10px 12px ;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 500; 
+}
 
