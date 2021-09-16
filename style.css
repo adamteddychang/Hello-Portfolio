@@ -2,8 +2,7 @@
 
 body {
   margin: 0;
-  
-  
+
   /* background-image: url(Images/Illustration.png);
   background-repeat: no-repeat;
   background-position: 100% 120%; */
@@ -22,6 +21,7 @@ body {
   padding-right: 19px;
   background-color: #3c3a39;
   color: #fff;
+  width: auto;
 }
 
 #name {
@@ -100,7 +100,6 @@ li {
 #recent-works {
   padding-top: 120px;
   text-align: center;
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
   color: #1c1a19;
-
 }
