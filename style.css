@@ -143,6 +143,7 @@ body {
 }
 
 #lang-contain {
+  display: flex;
   padding-left: 24px;
 }
 
@@ -258,6 +259,7 @@ body {
   color: #ff6b00;
   padding-top: 120px;
   font-family: 'Crete Round', sans-serif;
+  font-weight: 400;
   font-size: 72px;
   line-height: 88px;
   margin: 0;
@@ -279,6 +281,12 @@ body {
   margin: 0 24px 0 24px;
 }
 
+.bk_img_d {
+  background-image: url(Images/illustration-about-me-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+
 .st-see-btn_3 {
   padding: 12px;
   border-radius: 0;
@@ -298,34 +306,54 @@ body {
   align-items: center;
   background-color: #1c1a19;
   color: #fff;
-  margin: 0;
-  padding-top: 0%;
+  margin-top: 0;
+  padding: 0;
   text-align: center;
 }
 
+.tech_ul {
+  margin: 0;
+  padding: 0;
+}
+
 .tech-title_1 {
-  padding-top: 136px;
-  margin-top: 0;
+  padding-top: 100px;
+  margin: 0 0 12px 0;
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
+  list-style-type: none;
+  list-style-image: url(Images/rec-li.png);
 }
 
 .tech-title_2 {
-  padding-top: 136px;
-  margin-top: 0;
+  margin: 44px 0 12px 0;
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
+  list-style-image: url(Images/sq-li.png);
+  padding-left: 12px;
 }
 
 .tech-title_3 {
-  padding-top: 136px;
-  margin-top: 0;
+  margin: 44px 0 12px 0;
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
+  list-style-image: url(Images/rd-li.png);
+}
+
+.tech_stack {
+  font-family: 'Inter', sans-serif;
+  font-size: 22px;
+  line-height: 42.67px;
+  list-style-type: none;
+  margin-top: 32px;
+}
+
+.tech_stack:last-child {
+  margin-bottom: 110px;
 }
