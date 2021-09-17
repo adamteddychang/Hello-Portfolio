@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 # Hello-Portfolio
 
-> In this project, I will set up a "Hello-Portfolio" repository. My goal here is to create the first page of a mobile-friendly portfolio page. 
-
+> In this project, I will set up a "Hello-Portfolio" repository. 
+My goal here is to create the first page of a mobile-friendly portfolio page. 
 
 ## Built With
 - Html
@@ -21,17 +21,12 @@ To get a local copy up and running follow these simple example steps.
 Clone repository
 
 
-
-
-
-
 ## Author
 
 👤 **You-Wei (Adam) Chang**
 
 - GitHub: [@adamteddychang](https://github.com/adamteddychang)
 - Twitter: [@AdamChang3](https://twitter.com/AdamChang3)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 
 ## 🤝 Contributing
