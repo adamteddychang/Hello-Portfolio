@@ -401,6 +401,7 @@ a {
   font-size: 32px;
   line-height: 44px;
   list-style-image: url(Images/rd-li.png);
+  margin-bottom: 90px;
 }
 
 .tech_stack {
@@ -414,8 +415,4 @@ a {
 
 .tech_stack_ul {
   padding: 0;
-}
-
-.tech_stack_ul:last-child {
-  margin-bottom: 110px;
 }
