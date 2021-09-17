@@ -9,12 +9,6 @@ body {
   margin: 0;
 }
 
-.back-img {
-  position: absolute;
-  right: 0;
-  top: 400px;
-}
-
 .head-container {
   display: flex;
   justify-content: space-between;
@@ -178,6 +172,20 @@ body {
   font-weight: 700;
 }
 
+#st-see-btn:hover {
+  background-color: rgba(255, 245, 225, 1);
+  color: rgba(245, 88, 0, 1);
+  border: 1px solid rgba(245, 88, 0, 1);
+  transition: 0.1s;
+}
+
+#st-see-btn:active {
+  background-color: #e05304;
+  color: #f4f4f0;
+  border: 0;
+  transition: 0.05s;
+}
+
 .bk-img-proj {
   display: flex;
   flex-direction: column;
@@ -246,11 +254,27 @@ body {
   font-weight: 700;
 }
 
+.st-see-btn_2:hover {
+  background-color: rgba(255, 245, 225, 1);
+  color: rgba(245, 88, 0, 1);
+  border: 1px solid rgba(245, 88, 0, 1);
+  transition: 0.1s;
+}
+
+.st-see-btn_2:active {
+  background-color: #e05304;
+  color: #f4f4f0;
+  border: 0;
+  transition: 0.05s;
+}
+
 .bk-img-proj:last-child {
   margin-bottom: 120px;
 }
 
 .about_me {
+  display: flex;
+  flex-direction: column;
   background-color: #1c1a19;
   margin: 0;
   background-image: url(Images/illustration-about-me-mobile.svg);
@@ -301,6 +325,20 @@ body {
   color: #fff;
   font-weight: 700;
   margin-left: 24px;
+}
+
+.st-see-btn_3:hover {
+  background-color: rgba(255, 245, 225, 1);
+  color: rgba(245, 88, 0, 1);
+  border: 1px solid rgba(245, 88, 0, 1);
+  transition: 0.1s;
+}
+
+.st-see-btn_3:active {
+  background-color: #e05304;
+  color: #f4f4f0;
+  border: 0;
+  transition: 0.05s;
 }
 
 .tech {
