@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
+html {
+  width: 100%;
+}
+
 body {
   margin: 0;
 }
@@ -84,12 +88,12 @@ body {
   display: flex;
 }
 
-ul {
+.social_icon_ul {
   display: flex;
   padding-left: 0;
 }
 
-li {
+.social_icons {
   justify-self: flex-start;
   padding: 12px;
 }
@@ -285,11 +289,43 @@ li {
   line-height: 24px;
   color: #fff;
   font-weight: 700;
-  margin-left: 24px; 
+  margin-left: 24px;
 }
 
 .tech {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: #1c1a19;
   color: #fff;
   margin: 0;
+  padding-top: 0%;
+  text-align: center;
+}
+
+.tech-title_1 {
+  padding-top: 136px;
+  margin-top: 0;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.tech-title_2 {
+  padding-top: 136px;
+  margin-top: 0;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.tech-title_3 {
+  padding-top: 136px;
+  margin-top: 0;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
 }
