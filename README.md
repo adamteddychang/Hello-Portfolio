@@ -18,10 +18,13 @@ My goal here is to create the first page of a mobile-friendly portfolio page.
 
 ## Getting Started
 
+
 To get a local copy up and running follow these simple example steps.
 
 ### Setup
-Clone repository
+- Clone this Repository
+- You can do so on the website Girhub.com, go to the green button that says "Code", click on it, and clone it. 
+- You can also type git clone https://github.com/adamteddychang/Hello-Portfolio.git into your terminal. 
 
 
 ## Author
