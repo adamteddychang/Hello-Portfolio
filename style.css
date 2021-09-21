@@ -424,18 +424,28 @@ a {
 }
 
 .form {
-  margin-top: 120px;
   padding: 0 24px;
   display: flex;
   flex-direction: column;
 }
 
-.pargragh-form {
+.form-title {
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
+}
+
+.pargragh-form {
+  margin: 120px 24px 40px 24px;
+  width: 327px;
+  height: 216px;
   color: #172b4d;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
   margin-bottom: 70px;
 }
 
@@ -444,13 +454,17 @@ a {
   margin-bottom: 24px;
   border: none;
   border-bottom: 1px solid  #dbd8d7;
+  padding: 14px;
 }
 
 .text {
   font-family: 'Inter', sans-serif;
   margin-bottom: 24px;
-
+  border: none;
+  background-color: #fbf8f7;
+  padding: 12px;
 }
+
 .submit {
   height: 48px;
   width: 131px;
@@ -464,4 +478,5 @@ a {
   line-height: 24px;
   letter-spacing: 0.03em;
   text-align: center;
+  align-self: center;
 }
