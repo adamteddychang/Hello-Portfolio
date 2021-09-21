@@ -416,3 +416,99 @@ a {
 .tech_stack_ul {
   padding: 0;
 }
+
+.contact-form {
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 100%;
+}
+
+.form {
+  padding: 0 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.pargragh-form {
+  margin: 120px 24px 40px 24px;
+  width: 327px;
+  height: 216px;
+  color: #172b4d;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  margin-bottom: 70px;
+}
+
+.name-email {
+  font-family: 'Inter', sans-serif;
+  margin-bottom: 24px;
+  border: none;
+  border-bottom: 1px solid  #dbd8d7;
+  padding: 14px;
+}
+
+.text {
+  font-family: 'Inter', sans-serif;
+  margin-bottom: 24px;
+  border: none;
+  background-color: #fbf8f7;
+  padding: 12px;
+}
+
+.submit {
+  height: 48px;
+  width: 131px;
+  padding: 12px;
+  background: #ff6b00;
+  color: #fff;
+  border: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  align-self: center;
+}
+
+.submit:hover {
+  border: 1px solid #f55800;
+  background-color: #fff5e1;
+  color: #f55800;
+  transition: 0.5s;
+}
+
+.submit:active {
+  background-color: #e05304;
+  color: #f4f1f0;
+}
+
+.icons-bottom {
+  margin-top: 124px;
+  border-top: 1px solid #dfe1e6;
+  padding: 15px;
+}
+
+.social-icons {
+  color: #505f79;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-top: none;
+  padding: 0;
+}
+
+.social-icons li {
+  padding: 8px;
+}
