@@ -480,9 +480,23 @@ a {
   text-align: center;
   align-self: center;
 }
-.icons {
+
+.submit:hover {
+  border: 1px solid #f55800;
+  background-color: #fff5e1;
+  color: #f55800;
+  transition: 0.5s;
+}
+
+.submit:active {
+  background-color: #e05304;
+  color: #f4f1f0;
+}
+
+.icons-bottom {
   margin-top: 124px;
   border-top: 1px solid #dfe1e6;
+  padding: 15px;
 }
 
 .social-icons {
@@ -491,6 +505,8 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  border-top: none;
+  padding: 0;
 }
 
 .social-icons li {
