@@ -679,6 +679,11 @@ a {
     display: none;
   }
 
+  .st-see-btn_2 {
+    display: none;
+  }
+
+
   .bk-img-proj:hover .st-see-btn_2 {
     display: flex;
     justify-content: center;
@@ -688,9 +693,7 @@ a {
     margin-bottom: 0;
   }
 
-  .st-see-btn_2 {
-    display: none;
-  }
+
 
   .about_me {
     display: grid;
@@ -700,7 +703,7 @@ a {
   .about_me_title {
     display: flex;
     flex-direction: row;
-    margin-left: 18rem;    
+    margin-left: 18rem;
   }
 
   .bk_img_d {
@@ -716,7 +719,7 @@ a {
   }
 
   .about_me_p {
-    padding:0;
+    padding: 0;
     font-size: 20px;
     line-height: 32px;
     width: 30rem;
@@ -742,10 +745,10 @@ a {
     grid-template-columns: 1.5fr 2fr;
     margin-bottom: 10rem;
   }
-  
+
   .pargragh-form {
     margin-left: 10rem;
-    width:30rem
+    width: 30rem;
   }
 
   .form-title {
@@ -753,29 +756,16 @@ a {
     font-size: 40px;
     line-height: 52px;
     text-align: left;
-    
   }
 
   .form {
     display: grid;
     margin-top: 10rem;
     padding: 0;
-    margin-right: 10rem;       
+    margin-right: 10rem;
   }
 
   .icons-bottom {
     padding: 0;
   }
-
-
-
-
-
-
-
-
-
-
-
-
 }
