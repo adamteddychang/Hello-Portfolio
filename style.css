@@ -35,6 +35,7 @@ a {
 }
 
 .nav-list {
+  /* Hidden the nav-list items here */
   display: none;
 }
 
@@ -519,7 +520,7 @@ a {
 .social-icons li {
   padding: 8px;
 }
-
+/* Here is where the desktop css starts */
 @media (min-width: 600px) {
   #menu-btn {
     display: none;
@@ -767,5 +768,6 @@ a {
 
   .icons-bottom {
     padding: 0;
+    padding-bottom: 0.5em;
   }
 }
