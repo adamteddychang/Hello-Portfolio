@@ -32,6 +32,10 @@ a {
   text-decoration: none;
 }
 
+.nav-list {
+  display: none;
+}
+
 #menu-btn {
   margin-top: 20px;
   width: 18px;
@@ -511,4 +515,33 @@ a {
 
 .social-icons li {
   padding: 8px;
+}
+
+
+@media (min-width: 600px) {
+  #menu-btn{
+    display: none;
+  }
+
+  .nav-list {
+    display: flex;
+    list-style-type: none;
+    margin-right: 124px;
+  }
+
+  .nav-list-items a {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+    margin-right: 32px;
+  }
+
+  .main-page {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    order: -1;
+  }
 }
