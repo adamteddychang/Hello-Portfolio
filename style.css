@@ -18,6 +18,8 @@ body {
   background-color: #3c3a39;
   color: #fff;
   width: auto;
+  position: sticky;
+  top: 0;
 }
 
 #name {
@@ -32,10 +34,16 @@ a {
   text-decoration: none;
 }
 
+.nav-list {
+  /* Hidden the nav-list items here */
+  display: none;
+}
+
 #menu-btn {
   margin-top: 20px;
   width: 18px;
   height: 12px;
+  cursor: pointer;
 }
 
 .main-page {
@@ -181,6 +189,7 @@ a {
   color: rgba(245, 88, 0, 1);
   border: 1px solid rgba(245, 88, 0, 1);
   transition: 0.1s;
+  cursor: pointer;
 }
 
 #st-see-btn:active {
@@ -275,6 +284,7 @@ a {
   color: rgba(245, 88, 0, 1);
   border: 1px solid rgba(245, 88, 0, 1);
   transition: 0.1s;
+  cursor: pointer;
 }
 
 .st-see-btn_2:active {
@@ -348,6 +358,7 @@ a {
   color: rgba(245, 88, 0, 1);
   border: 1px solid rgba(245, 88, 0, 1);
   transition: 0.1s;
+  cursor: pointer;
 }
 
 .st-see-btn_3:active {
@@ -427,6 +438,7 @@ a {
   padding: 0 24px;
   display: flex;
   flex-direction: column;
+  margin-top: 24px;
 }
 
 .form-title {
@@ -486,6 +498,7 @@ a {
   background-color: #fff5e1;
   color: #f55800;
   transition: 0.5s;
+  cursor: pointer;
 }
 
 .submit:active {
@@ -494,7 +507,7 @@ a {
 }
 
 .icons-bottom {
-  margin-top: 124px;
+  margin-top: 60px;
   border-top: 1px solid #dfe1e6;
   padding: 15px;
 }
@@ -511,4 +524,255 @@ a {
 
 .social-icons li {
   padding: 8px;
+}
+
+/* Here is where the desktop css starts */
+
+@media (min-width: 1000px) {
+  #menu-btn {
+    display: none;
+  }
+
+  .nav-list {
+    display: flex;
+    list-style-type: none;
+    margin-right: 124px;
+  }
+
+  .nav-list-items a {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+    margin-right: 32px;
+  }
+
+  .main-page {
+    display: grid;
+    grid-template-columns: 0.2fr 0.8fr 2fr;
+    background-image: url(Images/bg-img-dsktop/Illustration-header.svg);
+    background-repeat: no-repeat;
+    background-position: 100% 180%;
+  }
+
+  .icon-container {
+    grid-row: 1;
+  }
+
+  .social_icon_ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    justify-content: center;
+  }
+
+  .head-info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #main-title {
+    font-family: 'Crete Round', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 72px;
+    line-height: 81.5px;
+    color: #f55800;
+    margin: 0;
+  }
+
+  #second-title,
+  #description {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 44px;
+    margin: 0;
+    color: #fff;
+  }
+
+  #main-p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #f4f5f7;
+    margin-bottom: 0;
+  }
+
+  .works-title {
+    border: none;
+    display: flex;
+    margin-left: 17rem;
+    overflow: hidden;
+    text-align: center;
+  }
+
+  .works-title::after {
+    background-color: #212121;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 70%;
+    left: 1.2em;
+    top: 0.6em;
+  }
+
+  .projects-container {
+    display: flex;
+  }
+
+  .projects-title {
+    margin: 0;
+    font-size: 40px;
+    line-height: 52px;
+    font-weight: 400;
+    margin-bottom: 24px;
+  }
+
+  .projects-img {
+    width: 684px;
+    height: auto;
+    margin-left: 18rem;
+  }
+
+  #projects-text {
+    font-size: 20px;
+    line-height: 28px;
+    margin-right: 20rem;
+    margin-bottom: 20px;
+  }
+
+  #st-see-btn {
+    margin-top: 20px;
+  }
+
+  .other-proj-contain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px 5rem 5rem 5rem;
+  }
+
+  .bk-img-proj {
+    margin: 2rem;
+    height: auto;
+    margin-bottom: 0;
+    padding-right: 0;
+  }
+
+  .bk-img-proj:hover {
+    background-image: url(Images/bg-img-dsktop/hover-proj-img.png);
+    background-repeat: no-repeat;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column-reverse;
+    cursor: pointer;
+  }
+
+  .bk-img-proj:hover .bk-img-title {
+    display: none;
+  }
+
+  .bk-img-proj:hover .bk-img-p {
+    display: none;
+  }
+
+  .bk-img-proj:hover .lang-contain_2 {
+    display: none;
+  }
+
+  .st-see-btn_2 {
+    display: none;
+  }
+
+  .bk-img-proj:hover .st-see-btn_2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .bk-img-proj:last-child {
+    margin-bottom: 0;
+  }
+
+  .about_me {
+    display: grid;
+    grid-template-rows: 0.1fr 0.5fr 1fr;
+  }
+
+  .about_me_title {
+    display: flex;
+    flex-direction: row;
+    margin-left: 18rem;
+  }
+
+  .bk_img_d {
+    background-image: url(Images/bg-img-dsktop/illustration-about\ me.svg);
+    background-position: 100% 50%;
+  }
+
+  .about_me_d {
+    display: flex;
+    flex-direction: column;
+    margin-right: 18rem;
+    margin-left: 18rem;
+  }
+
+  .about_me_p {
+    padding: 0;
+    font-size: 20px;
+    line-height: 32px;
+    width: 30rem;
+    color: #f4f5f7;
+    margin-bottom: 2rem;
+  }
+
+  .st-see-btn_3 {
+    width: 10rem;
+    margin-left: 0;
+  }
+
+  .tech_ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    width: 80rem;
+  }
+
+  .contact-form {
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+    margin-bottom: 10rem;
+  }
+
+  .pargragh-form {
+    margin-left: 10rem;
+    width: 30rem;
+  }
+
+  .form-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: left;
+  }
+
+  .form {
+    display: grid;
+    margin-top: 10rem;
+    padding: 0;
+    margin-right: 10rem;
+  }
+
+  .icons-bottom {
+    padding: 0;
+    padding-bottom: 0.5em;
+  }
 }

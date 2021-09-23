@@ -2,7 +2,7 @@
 # Hello-Portfolio
 
 > In this project, I will set up a "Hello-Portfolio" repository. 
-My goal here is to create the first page of a mobile-friendly portfolio page. 
+My goal here is to create a mobile and desktop friendly portfolio page. 
 
 ## Built With
 - Html
@@ -12,6 +12,9 @@ My goal here is to create the first page of a mobile-friendly portfolio page.
 
 ## Live Demo
 ![screenshot](Images/Template_2_sample.PNG)
+(https://rawcdn.githack.com/adamteddychang/Hello-Portfolio/Desktop-portfolio-2/index.html?min=1)
+
+
 
 ## Live Link
 (https://adamteddychang.github.io/Hello-Portfolio)
