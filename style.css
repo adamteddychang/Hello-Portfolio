@@ -525,6 +525,7 @@ a {
 .social-icons li {
   padding: 8px;
 }
+
 /* Here is where the desktop css starts */
 @media (min-width: 600px) {
   #menu-btn {
@@ -690,7 +691,6 @@ a {
     display: none;
   }
 
-
   .bk-img-proj:hover .st-see-btn_2 {
     display: flex;
     justify-content: center;
@@ -699,8 +699,6 @@ a {
   .bk-img-proj:last-child {
     margin-bottom: 0;
   }
-
-
 
   .about_me {
     display: grid;
