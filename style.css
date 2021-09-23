@@ -433,6 +433,7 @@ a {
   padding: 0 24px;
   display: flex;
   flex-direction: column;
+  margin-top: 24px;
 }
 
 .form-title {
@@ -500,7 +501,7 @@ a {
 }
 
 .icons-bottom {
-  margin-top: 124px;
+  margin-top: 60px;
   border-top: 1px solid #dfe1e6;
   padding: 15px;
 }
@@ -691,10 +692,90 @@ a {
     display: none;
   }
 
+  .about_me {
+    display: grid;
+    grid-template-rows: 0.1fr 0.5fr 1fr;
+  }
 
+  .about_me_title {
+    display: flex;
+    flex-direction: row;
+    margin-left: 18rem;    
+  }
 
+  .bk_img_d {
+    background-image: url(Images/bg-img-dsktop/illustration-about\ me.svg);
+    background-position: 100% 50%;
+  }
 
+  .about_me_d {
+    display: flex;
+    flex-direction: column;
+    margin-right: 18rem;
+    margin-left: 18rem;
+  }
 
+  .about_me_p {
+    padding:0;
+    font-size: 20px;
+    line-height: 32px;
+    width: 30rem;
+    color: #f4f5f7;
+    margin-bottom: 2rem;
+  }
 
+  .st-see-btn_3 {
+    width: 10rem;
+    margin-left: 0;
+  }
+
+  .tech_ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    width: 80rem;
+  }
+
+  .contact-form {
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+    margin-bottom: 10rem;
+  }
   
+  .pargragh-form {
+    margin-left: 10rem;
+    width:30rem
+  }
+
+  .form-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: left;
+    
+  }
+
+  .form {
+    display: grid;
+    margin-top: 10rem;
+    padding: 0;
+    margin-right: 10rem;       
+  }
+
+  .icons-bottom {
+    padding: 0;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
 }
