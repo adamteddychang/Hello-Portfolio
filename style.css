@@ -527,7 +527,8 @@ a {
 }
 
 /* Here is where the desktop css starts */
-@media (min-width: 600px) {
+
+@media (min-width: 1000px) {
   #menu-btn {
     display: none;
   }
