@@ -43,6 +43,7 @@ a {
   margin-top: 20px;
   width: 18px;
   height: 12px;
+  cursor: pointer;
 }
 
 .main-page {
@@ -188,6 +189,7 @@ a {
   color: rgba(245, 88, 0, 1);
   border: 1px solid rgba(245, 88, 0, 1);
   transition: 0.1s;
+  cursor: pointer;
 }
 
 #st-see-btn:active {
@@ -282,6 +284,7 @@ a {
   color: rgba(245, 88, 0, 1);
   border: 1px solid rgba(245, 88, 0, 1);
   transition: 0.1s;
+  cursor: pointer;
 }
 
 .st-see-btn_2:active {
@@ -355,6 +358,7 @@ a {
   color: rgba(245, 88, 0, 1);
   border: 1px solid rgba(245, 88, 0, 1);
   transition: 0.1s;
+  cursor: pointer;
 }
 
 .st-see-btn_3:active {
@@ -494,6 +498,7 @@ a {
   background-color: #fff5e1;
   color: #f55800;
   transition: 0.5s;
+  cursor: pointer;
 }
 
 .submit:active {
@@ -666,6 +671,7 @@ a {
     border: 1px solid black;
     display: flex;
     flex-direction: column-reverse;
+    cursor: pointer;
   }
 
   .bk-img-proj:hover .bk-img-title {
