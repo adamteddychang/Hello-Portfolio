@@ -771,7 +771,10 @@ a {
     padding: 0;
     margin-right: 10rem;
   }
-
+  .form:hover ::placeholder{
+    transform: translate(20px);
+  }
+  
   .icons-bottom {
     padding: 0;
     padding-bottom: 0.5em;
