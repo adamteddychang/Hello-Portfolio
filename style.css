@@ -621,7 +621,7 @@ a {
   .works-title {
     border: none;
     display: flex;
-    margin-left: 14rem;
+    margin-left: 13rem;
     overflow: hidden;
     text-align: center;
   }
@@ -653,7 +653,7 @@ a {
   .projects-img {
     width: 684px;
     height: auto;
-    margin-left: 14rem;
+    margin-left: 13rem;
   }
 
   #projects-text {
@@ -777,6 +777,7 @@ a {
     font-size: 40px;
     line-height: 52px;
     text-align: left;
+    margin-left: 2rem;
   }
 
   .form {
