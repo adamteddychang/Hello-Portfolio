@@ -674,6 +674,7 @@ a {
     display: flex;
     flex-direction: column-reverse;
     cursor: pointer;
+    transform: scale(1.01);    
   }
 
   .bk-img-proj:hover .bk-img-title {
