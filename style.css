@@ -529,6 +529,20 @@ a {
 /* Here is where the desktop css starts */
 
 @media (min-width: 1000px) {
+  #name {
+    animation: mymove 1s;
+  }
+
+  @keyframes mymove {
+    from {
+      transform: rotate(0deg);
+    }
+
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
   #menu-btn {
     display: none;
   }
@@ -674,7 +688,7 @@ a {
     display: flex;
     flex-direction: column-reverse;
     cursor: pointer;
-    transform: scale(1.01);    
+    transform: scale(1.01);
   }
 
   .bk-img-proj:hover .bk-img-title {
@@ -771,10 +785,11 @@ a {
     padding: 0;
     margin-right: 10rem;
   }
-  .form:hover ::placeholder{
+
+  .form:hover ::placeholder {
     transform: translate(20px);
   }
-  
+
   .icons-bottom {
     padding: 0;
     padding-bottom: 0.5em;
