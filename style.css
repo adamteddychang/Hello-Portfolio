@@ -481,7 +481,7 @@ a {
 }
 
 .submit {
- display: flex;
+  display: flex;
   padding: 12px;
   background: #ff6b00;
   color: #fff;
