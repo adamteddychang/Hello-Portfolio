@@ -102,6 +102,7 @@ a {
 .social_icon_ul {
   display: flex;
   padding-left: 0;
+  list-style-type: none;
 }
 
 .social_icons {
@@ -272,12 +273,13 @@ a {
   padding: 12px;
   border-radius: 0;
   background-color: #ff6b00;
-  border: none;
+  border: 1px solid #ff6b00;
   font-family: 'Inter', sans-serif;
   font-size: 17px;
   line-height: 24px;
   color: #fff;
   font-weight: 700;
+  width: 100%;
 }
 
 .st-see-btn_2:hover {
@@ -479,19 +481,18 @@ a {
 }
 
 .submit {
-  height: 48px;
-  width: 131px;
+  display: flex;
   padding: 12px;
   background: #ff6b00;
   color: #fff;
-  border: none;
+  border: 1px solid #ff6b00;
   font-family: 'Inter', sans-serif;
   font-size: 17px;
   font-weight: 700;
   line-height: 24px;
   letter-spacing: 0.03em;
-  text-align: center;
   align-self: center;
+  border-radius: 0%;
 }
 
 .submit:hover {
@@ -791,6 +792,11 @@ a {
 
   .form:hover ::placeholder {
     transform: translate(20px);
+  }
+
+  .submit {
+    width: 130px;
+    height: auto;
   }
 
   .icons-bottom {
