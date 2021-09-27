@@ -794,6 +794,13 @@ a {
     transform: translate(20px);
   }
 
+  .submit {
+    width: 135px;
+    height: auto;
+    text-align: center;
+    align-self: center;
+  }
+
   .icons-bottom {
     padding: 0;
     padding-bottom: 0.5em;
