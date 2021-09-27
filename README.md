@@ -12,8 +12,6 @@ My goal here is to create a mobile and desktop friendly portfolio page.
 
 ## Live Demo
 ![screenshot](Images/Template_2_sample.PNG)
-(https://rawcdn.githack.com/adamteddychang/Hello-Portfolio/Desktop-portfolio-2/index.html?min=1)
-
 
 
 ## Live Link
