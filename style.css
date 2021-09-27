@@ -493,6 +493,7 @@ a {
   letter-spacing: 0.03em;
   align-self: center;
   border-radius: 0%;
+  -webkit-appearance: none;
 }
 
 .submit:hover {
