@@ -20,6 +20,7 @@ body {
   width: auto;
   position: sticky;
   top: 0;
+  z-index: 10;
 }
 
 #name {
@@ -688,7 +689,8 @@ a {
     display: flex;
     flex-direction: column-reverse;
     cursor: pointer;
-    transform: scale(1.05);
+    transform: scale(1.08);
+    transition: 50ms;
   }
 
   .bk-img-proj:hover .bk-img-title {
