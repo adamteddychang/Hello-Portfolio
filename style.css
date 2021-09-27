@@ -272,7 +272,7 @@ a {
   padding: 12px;
   border-radius: 0;
   background-color: #ff6b00;
-  border: none;
+  border: 1px solid #ff6b00;
   font-family: 'Inter', sans-serif;
   font-size: 17px;
   line-height: 24px;
@@ -484,14 +484,14 @@ a {
   padding: 12px;
   background: #ff6b00;
   color: #fff;
-  border: none;
+  border: 1px solid #ff6b00;
   font-family: 'Inter', sans-serif;
   font-size: 17px;
   font-weight: 700;
   line-height: 24px;
   letter-spacing: 0.03em;
-  text-align: center;
   align-self: center;
+  border-radius: 0;
 }
 
 .submit:hover {
