@@ -806,37 +806,33 @@ a {
   }
 }
 
+@media (min-width: 1101px) and (max-width: 1350px) {
+  .head-container {
+    width: 100%;
+  }
 
-@media (min-width: 1101px) and (max-width: 1350px){
-  
-.head-container {
-  width: 100%;
-}
+  .works-title::after {
+    width: 50%;
+  }
 
-.works-title::after {
-  width: 50%;
-}
+  .projects-img {
+    margin: 0;
+  }
 
-.projects-img {
-  margin: 0;
-}
+  .other-proj-contain {
+    margin: auto;
+  }
 
-.other-proj-contain {
-  margin: auto;
-}
+  .bk_img_d {
+    background-position: 80% 60%;
+  }
 
-.bk_img_d {
-  background-position: 80% 60%;
-}
+  .about_me_title {
+    margin-left: 150px;
+  }
 
-.about_me_title {
-  margin-left: 150px;
-}
-
-.about_me_d {
-  margin-right: 0;
-  margin-left: 150px;
-}
-
-
+  .about_me_d {
+    margin-right: 0;
+    margin-left: 150px;
+  }
 }
