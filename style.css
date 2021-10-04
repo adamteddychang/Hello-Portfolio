@@ -12,7 +12,7 @@ body {
 
 .head-container {
   display: flex;
-  justify-content: space-between;
+  
   padding-left: 24px;
   padding-right: 19px;
   background-color: #3c3a39;
@@ -78,19 +78,24 @@ a {
 
 #menu-btn {
   margin-top: 20px;
-  cursor: pointer;
+  
   background-color: transparent;
   background-repeat: no-repeat;
   border: none;    
   overflow: hidden;
   outline: none;
-  z-index: 100;
+  z-index: 100;  
+  margin-left: 50%;
   position: fixed;
+  
 
 }
 
 .close-icon {
   display: none;
+  
+  
+ 
 }
 
 .show {
@@ -351,7 +356,7 @@ a {
   margin-bottom: 120px;
 }
 
-.about_me {
+#about_me {
   display: flex;
   flex-direction: column;
   background-color: #1c1a19;
@@ -481,7 +486,7 @@ a {
   padding: 0;
 }
 
-.contact-form {
+#contact-form {
   background-color: #fff;
   display: grid;
   grid-template-columns: 100%;
@@ -770,7 +775,7 @@ a {
     margin-bottom: 0;
   }
 
-  .about_me {
+  #about_me {
     display: grid;
     grid-template-rows: 0.1fr 0.5fr 1fr;
   }
@@ -815,7 +820,7 @@ a {
     width: 80rem;
   }
 
-  .contact-form {
+  #contact-form {
     display: grid;
     grid-template-columns: 1.5fr 2fr;
     margin-bottom: 10rem;
