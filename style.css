@@ -12,12 +12,13 @@ body {
 
 .head-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color: #3c3a39;
   color: #fff;
   width: auto;
   position: sticky;
   top: 0;
+  padding: 0 10%;
 }
 
 #name {
@@ -78,11 +79,11 @@ a {
   border: none;
   overflow: hidden;
   outline: none;
-  z-index: 100;
-  position: fixed;
 }
 
 .close-icon {
+  position: fixed;
+  z-index: 100;
   display: none;
 }
 
