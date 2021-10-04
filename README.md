@@ -7,6 +7,7 @@ My goal here is to create a mobile and desktop friendly portfolio page.
 ## Built With
 - Html
 - CSS
+- Javascript
 - No Frameworks used
 - No Technologies used
 
