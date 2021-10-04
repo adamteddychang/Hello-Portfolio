@@ -12,15 +12,12 @@ body {
 
 .head-container {
   display: flex;
-  
-  padding-left: 24px;
-  padding-right: 19px;
+  justify-content: space-around;
   background-color: #3c3a39;
   color: #fff;
   width: auto;
   position: sticky;
   top: 0;
-  z-index: 10;
 }
 
 #name {
@@ -44,16 +41,16 @@ a {
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: 99;
+  z-index: 80;
   height: 100%;
-  background: #3C3A39;
-  color: #FFF5E1;
-  list-style: none;  
+  background: #3c3a39;
+  color: #fff5e1;
+  list-style: none;
   padding-top: 20%;
 }
 
 .nav-list-items {
-  border-bottom: 1px solid #6F6C6B;
+  border-bottom: 1px solid #6f6c6b;
   width: 80%;
   padding-top: 5%;
 }
@@ -62,40 +59,31 @@ a {
   border: none;
 }
 
- .nav-list-items a{
-  font-family: 'Inter',sans-serif;
+.nav-list-items a {
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
   color: #fff5e1;
-  
 }
 
 .nav-list-items a img {
   display: none;
-  
 }
 
 #menu-btn {
   margin-top: 20px;
-  
   background-color: transparent;
   background-repeat: no-repeat;
-  border: none;    
+  border: none;
   overflow: hidden;
   outline: none;
-  z-index: 100;  
-  margin-left: 50%;
+  z-index: 100;
   position: fixed;
-  
-
 }
 
 .close-icon {
   display: none;
-  
-  
- 
 }
 
 .show {
