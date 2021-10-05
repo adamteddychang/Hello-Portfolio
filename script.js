@@ -47,7 +47,34 @@ for (const btn of closebtn) {
 // JS for the data object
 
 const modalTitle = document.querySelector('.modal_title');
-const languages = document.querySelector('#lang-contain');
+const languages1 = document.querySelector('#lang1');
+const languages2 = document.querySelector('#lang2');
+const languages3 = document.querySelector('#lang3');
 const projectImg = document.querySelector('#proj_img');
 // change img src, projectImg.src = "newsource.png"
-const ProjectContent = document.querySelector('#proj_content');
+const projectContent = document.querySelector('#proj_content');
+const seeLiveBtn = document.querySelector('#see_live')
+const seeSrcBtn = document.querySelector('#see_src')
+
+
+const modal1 = {  
+    title :"Multi Post Stories",
+    language1: "html",
+    language2: "Bootstrap",
+    language3: "Ruby on Rails", 
+    projectImage: "Images/modal_img.png",
+    projectTxt: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    live:"https://www.google.com",
+    source:"https://www.github.com"  
+}
+
+ modalTitle.innerHTML = modal1.title
+ languages1.innerHTML = modal1.language1
+ languages2.innerHTML = modal1.language2
+ languages3.innerHTML = modal1.language3
+ projectImg.src = modal1.projectImage
+ projectContent.innerHTML = modal1.projectTxt
+ seeLiveBtn.href = modal1.live
+ seeSrcBtn.href = modal1.source
+
+
