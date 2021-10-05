@@ -68,6 +68,18 @@ const modal1 = {
     source:"https://www.github.com"  
 }
 
+const modal2 = {
+    title :"Professional Art Printing Data",
+    language1: "html",
+    language2: "Bootstrap",
+    language3: "Ruby on Rails", 
+    projectImage: "Images/modal_img.png",
+    projectTxt: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    live:"https://www.google.com",
+    source:"https://www.github.com" 
+}
+
+//Data for Modal for first project
  modalTitle.innerHTML = modal1.title
  languages1.innerHTML = modal1.language1
  languages2.innerHTML = modal1.language2
@@ -77,4 +89,13 @@ const modal1 = {
  seeLiveBtn.href = modal1.live
  seeSrcBtn.href = modal1.source
 
+ //Data for Modal for second project
+ modalTitle.innerHTML = modal2.title
+ languages1.innerHTML = modal2.language1
+ languages2.innerHTML = modal2.language2
+ languages3.innerHTML = modal2.language3
+ projectImg.src = modal2.projectImage
+ projectContent.innerHTML = modal2.projectTxt
+ seeLiveBtn.href = modal2.live
+ seeSrcBtn.href = modal2.source
 

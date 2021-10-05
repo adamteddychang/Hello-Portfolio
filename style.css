@@ -255,7 +255,7 @@ a {
   display: flex;  
   justify-content: center;
   padding:  1rem;
-  margin: 3rem 1rem;
+  margin: 2rem 0.5rem;
   background-color: #fff ;
   cursor: pointer;
   visibility: hidden;
