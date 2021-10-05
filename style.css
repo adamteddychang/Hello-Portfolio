@@ -13,14 +13,12 @@ body {
 .head-container {
   display: flex;
   justify-content: space-between;
-  padding-left: 24px;
-  padding-right: 19px;
   background-color: #3c3a39;
   color: #fff;
   width: auto;
   position: sticky;
   top: 0;
-  z-index: 10;
+  padding: 0 10%;
 }
 
 #name {
@@ -37,14 +35,61 @@ a {
 
 .nav-list {
   /* Hidden the nav-list items here */
+  position: fixed;
+  transform: translateX(-100%);
+  transition: transform 0.5s;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 80;
+  height: 100%;
+  background: #3c3a39;
+  color: #fff5e1;
+  list-style: none;
+  padding-top: 20%;
+}
+
+.nav-list-items {
+  border-bottom: 1px solid #6f6c6b;
+  width: 80%;
+  padding-top: 5%;
+}
+
+.nav-list-items:last-child {
+  border: none;
+}
+
+.nav-list-items a {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff5e1;
+}
+
+.nav-list-items a img {
   display: none;
 }
 
 #menu-btn {
   margin-top: 20px;
-  width: 18px;
-  height: 12px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  overflow: hidden;
+  outline: none;
   cursor: pointer;
+}
+
+.close-icon {
+  position: fixed;
+  z-index: 100;
+  display: none;
+}
+
+.show {
+  transform: translateY(0);
 }
 
 .main-page {
@@ -301,7 +346,7 @@ a {
   margin-bottom: 120px;
 }
 
-.about_me {
+#about_me {
   display: flex;
   flex-direction: column;
   background-color: #1c1a19;
@@ -431,7 +476,7 @@ a {
   padding: 0;
 }
 
-.contact-form {
+#contact-form {
   background-color: #fff;
   display: grid;
   grid-template-columns: 100%;
@@ -720,7 +765,7 @@ a {
     margin-bottom: 0;
   }
 
-  .about_me {
+  #about_me {
     display: grid;
     grid-template-rows: 0.1fr 0.5fr 1fr;
   }
@@ -765,7 +810,7 @@ a {
     width: 80rem;
   }
 
-  .contact-form {
+  #contact-form {
     display: grid;
     grid-template-columns: 1.5fr 2fr;
     margin-bottom: 10rem;

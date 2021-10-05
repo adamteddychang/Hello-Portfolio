@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">   
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-SV8KY1KV7V"></script>
+    <script src="index.js"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
@@ -16,19 +17,22 @@
     </script>
     <title>Hello, I am Adam Chang</title>
 </head>
-<body>
+<body>    
     <header class="head-container">
          
         <a href=""><h2 id="name">Adam Chang</h2></a>
-        <nav>
+        <nav id="nav">
             <ul class="nav-list">
-                <li class="nav-list-items"><a href="">Portfolio</a></li>
-                <li class="nav-list-items"><a href="">About</a></li>
-                <li class="nav-list-items"><a href="">Contact</a></li>
-                <li class="nav-list-items"><a href=""><img src="Images/mail.svg" alt=""></a></li>
+                <li class="nav-list-items"><a class="nav_a" href="#works-container">Portfolio</a></li>
+                <li class="nav-list-items"><a class="nav_a" href="#about_me">About</a></li>
+                <li class="nav-list-items"><a class="nav_a" href="#contact-form">Contact</a></li>
+                <li class="nav-list-items"><a class="nav_a" href=""><img src="Images/mail.svg" alt=""></a></li>
 
             </ul>            
-            <img  id="menu-btn" src="Images/Union.png" alt="menu button"> 
+            <button id="menu-btn" type="button">
+                <img class="menu-icon"  src="Images/Union.png" alt="menu button">
+                <img class="close-icon" src="Images/close.png" alt="close button">
+            </button> 
 
         </nav>
           
@@ -143,7 +147,7 @@
     </div>
 </section>
 
-<section class="about_me">
+<section id="about_me">
     <h2 class="about_me_title">About me</h2>
     <div class="bk_img_d"> 
         <div class="about_me_d">
@@ -191,7 +195,7 @@
 </div>
 
 </section>
-<section  class="contact-form">
+<section  id="contact-form">
     <div class="pargragh-form">
         <h4 class="form-title">I'm always interested in hearing about new projects, 
           so if you'd like to chat please get in touch.</h4>
@@ -216,6 +220,8 @@
     </ul>
   </footer>
 
-
+  <script src="script.js"></script>
+  
+  
 </body>
 </html>
