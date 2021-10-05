@@ -46,11 +46,61 @@ const modal2 = {
     title :"Professional Art Printing Data",
     language1: "html",
     language2: "Bootstrap",
-    language3: "Ruby on Rails", 
+    language3: "Ruby ", 
     projectImage: "Images/modal_img.png",
-    projectTxt: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    projectTxt: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
     live:"https://www.google.com",
     source:"https://www.github.com" 
+}
+const modal3 = {
+  title :"Professional Art Printing Data",
+  language1: "html",
+  language2: "Bootstrap",
+  language3: "Ruby ", 
+  projectImage: "Images/modal_img.png",
+  projectTxt: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+  live:"https://www.google.com",
+  source:"https://www.github.com" 
+}
+const modal4 = {
+  title :"Professional Art Printing Data",
+  language1: "html",
+  language2: "Bootstrap",
+  language3: "Ruby ", 
+  projectImage: "Images/modal_img.png",
+  projectTxt: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+  live:"https://www.google.com",
+  source:"https://www.github.com" 
+}
+const modal5 = {
+  title :"Professional Art Printing Data",
+  language1: "html",
+  language2: "Bootstrap",
+  language3: "Ruby ", 
+  projectImage: "Images/modal_img.png",
+  projectTxt: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+  live:"https://www.google.com",
+  source:"https://www.github.com" 
+}
+const modal6 = {
+  title :"Professional Art Printing Data",
+  language1: "html",
+  language2: "Bootstrap",
+  language3: "Ruby ", 
+  projectImage: "Images/modal_img.png",
+  projectTxt: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+  live:"https://www.google.com",
+  source:"https://www.github.com" 
+}
+const modal7 = {
+  title :"Professional Art Printing Data",
+  language1: "html",
+  language2: "Bootstrap",
+  language3: "Ruby ", 
+  projectImage: "Images/modal_img.png",
+  projectTxt: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+  live:"https://www.google.com",
+  source:"https://www.github.com" 
 }
 
 //Data for Modal for first project
@@ -74,6 +124,5 @@ const modal2 = {
  seeSrcBtn.href = modal2.source
 
 
- const cardTitle = document.querySelector('.bk-img-title')
- const cardP = document.querySelector('.bk-img-p')
+ 
 
