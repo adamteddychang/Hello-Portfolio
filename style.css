@@ -246,6 +246,72 @@ a {
   transition: 0.05s;
 }
 
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;  
+  justify-content: center;
+  padding:  1rem;
+  margin: 3rem 1rem;
+  background-color: #fff ;
+  cursor: pointer;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.35s ease-in;
+}
+
+.visible {
+  visibility: visible;
+  opacity:2;
+}
+
+#lang-contain_modal {
+  display: flex;
+  padding: 0;  
+}
+
+.lang-li_modal {
+  list-style-type: none;
+  border: 1px solid #8993a4;
+  margin-right: 12px;
+  padding: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 600;
+  color: #3c3a39;
+}
+
+.modal_dialog {
+  position: relative;
+  max-width: 800px;
+  max-height: 80vh;
+  border-radius: 5px;
+  background: var(--white);
+  overflow: auto;
+  cursor: default;
+}
+
+.modal-dialog > * {
+  padding: 1rem;
+}
+
+.modal_header {
+  display: flex;
+  align-items: center;  
+}
+
+.modal_header .close-modal {
+  font-size: 1.5rem;
+  border: none;
+  background-color: transparent;
+}
+
+
+
 .bk-img-proj {
   display: flex;
   flex-direction: column;
