@@ -403,6 +403,10 @@ a {
   border: 1px solid black;
 }
 
+.closebtn {
+  cursor: pointer;
+}
+
 #about_me {
   display: flex;
   flex-direction: column;
@@ -792,11 +796,9 @@ a {
     border: 1px solid black;
     display: flex;
     flex-direction: column-reverse;
-    cursor: pointer;
-    transform: scale(1.08);
-    transition: 50ms;
+    cursor: pointer;    
   }
-
+  
   .bk-img-proj:hover .bk-img-title {
     display: none;
   }
