@@ -18,7 +18,7 @@ for (const btn of closebtn) {
   });
 }
 
-// JS for the data object
+// JS for the data object modal skeleton
 
 const modalTitle = document.querySelector('.modal_title');
 const languages1 = document.querySelector('#lang1');
@@ -27,121 +27,113 @@ const languages3 = document.querySelector('#lang3');
 const projectImg = document.querySelector('#proj_img');
 // change img src, projectImg.src = "newsource.png"
 const projectContent = document.querySelector('#proj_content');
-const seeLiveBtn = document.querySelector('#see_live')
-const seeSrcBtn = document.querySelector('#see_src')
+const seeLiveBtn = document.querySelector('#see_live');
+const seeSrcBtn = document.querySelector('#see_src');
 
-
-const modal1 = {  
-    title :"Multi Post Stories",
-    language1: "html",
-    language2: "Bootstrap",
-    language3: "Ruby on Rails", 
-    projectImage: "Images/modal_img.png",
-    projectTxt: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    live:"https://www.google.com",
-    source:"https://www.github.com"  
-}
+const modal1 = {
+  title: 'Multi Post Stories',
+  language1: 'html',
+  language2: 'Bootstrap',
+  language3: 'Ruby on Rails',
+  projectImage: 'Images/modal_img.png',
+  projectTxt: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+  live: 'https://www.google.com',
+  source: 'https://www.github.com',
+};
 
 const modal2 = {
-    title :"Professional Art Printing Data 1",
-    language1: "html",
-    language2: "Bootstrap",
-    language3: "Ruby ", 
-    projectImage: "Images/modal_img.png",
-    projectTxt: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-    live:"https://www.google.com",
-    source:"https://www.github.com" 
-}
+  title: 'Professional Art Printing Data 1',
+  language1: 'html',
+  language2: 'Bootstrap',
+  language3: 'Ruby ',
+  projectImage: 'Images/modal_img.png',
+  projectTxt: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+  live: 'https://www.google.com',
+  source: 'https://www.github.com',
+};
 const modal3 = {
-  title :"Professional Art Printing Data 2",
-  language1: "html",
-  language2: "Bootstrap",
-  language3: "Ruby ", 
-  projectImage: "Images/modal_img.png",
+  title: 'Professional Art Printing Data 2',
+  language1: 'html',
+  language2: 'Bootstrap',
+  language3: 'Ruby ',
+  projectImage: 'Images/modal_img.png',
   projectTxt: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-  live:"https://www.google.com",
-  source:"https://www.github.com" 
-}
+  live: 'https://www.google.com',
+  source: 'https://www.github.com',
+};
 const modal4 = {
-  title :"Professional Art Printing Data 3",
-  language1: "html",
-  language2: "Bootstrap",
-  language3: "Ruby ", 
-  projectImage: "Images/modal_img.png",
+  title: 'Professional Art Printing Data 3',
+  language1: 'html',
+  language2: 'Bootstrap',
+  language3: 'Ruby ',
+  projectImage: 'Images/modal_img.png',
   projectTxt: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-  live:"https://www.google.com",
-  source:"https://www.github.com" 
-}
+  live: 'https://www.google.com',
+  source: 'https://www.github.com',
+};
 const modal5 = {
-  title :"Professional Art Printing Data 4",
-  language1: "html",
-  language2: "Bootstrap",
-  language3: "Ruby ", 
-  projectImage: "Images/modal_img.png",
+  title: 'Professional Art Printing Data 4',
+  language1: 'html',
+  language2: 'Bootstrap',
+  language3: 'Ruby ',
+  projectImage: 'Images/modal_img.png',
   projectTxt: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-  live:"https://www.google.com",
-  source:"https://www.github.com" 
-}
+  live: 'https://www.google.com',
+  source: 'https://www.github.com',
+};
 const modal6 = {
-  title :"Professional Art Printing Data 5",
-  language1: "html",
-  language2: "Bootstrap",
-  language3: "Ruby ", 
-  projectImage: "Images/modal_img.png",
+  title: 'Professional Art Printing Data 5',
+  language1: 'html',
+  language2: 'Bootstrap',
+  language3: 'Ruby ',
+  projectImage: 'Images/modal_img.png',
   projectTxt: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-  live:"https://www.google.com",
-  source:"https://www.github.com" 
-}
+  live: 'https://www.google.com',
+  source: 'https://www.github.com',
+};
 const modal7 = {
-  title :"Professional Art Printing Data 6",
-  language1: "html",
-  language2: "Bootstrap",
-  language3: "Ruby ", 
-  projectImage: "Images/modal_img.png",
+  title: 'Professional Art Printing Data 6',
+  language1: 'html',
+  language2: 'Bootstrap',
+  language3: 'Ruby ',
+  projectImage: 'Images/modal_img.png',
   projectTxt: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-  live:"https://www.google.com",
-  source:"https://www.github.com" 
+  live: 'https://www.google.com',
+  source: 'https://www.github.com',
+};
+const projArr = [modal1, modal2, modal3, modal4, modal5, modal6, modal7];
+
+// Data for Modal for project
+function loadDataIntoModal(data) {
+  modalTitle.innerHTML = data.title;
+  languages1.innerHTML = data.language1;
+  languages2.innerHTML = data.language2;
+  languages3.innerHTML = data.language3;
+  projectImg.src = data.projectImage;
+  projectContent.innerHTML = data.projectTxt;
+  seeLiveBtn.href = data.live;
+  seeSrcBtn.href = data.source;
 }
-const projArr = [modal1, modal2, modal3, modal4, modal5, modal6, modal7]
 
+document.getElementById('st-see-btn').addEventListener('click', () => {
+  loadDataIntoModal(projArr[0]);
+});
 
-
-
- 
-
- document.getElementById('st-see-btn').addEventListener('click', function(){
-  loadDataIntoModal(projArr[0])
-})
-
-document.querySelector('#proj_2_btn').addEventListener('click', function(){
-  loadDataIntoModal(projArr[1])
-})
-document.querySelector('#proj_3_btn').addEventListener('click', function(){
-  loadDataIntoModal(projArr[2])
-})
-document.querySelector('#proj_4_btn').addEventListener('click', function(){
-  loadDataIntoModal(projArr[3])
-})
-document.querySelector('#proj_5_btn').addEventListener('click', function(){
-  loadDataIntoModal(projArr[4])
-})
-document.querySelector('#proj_6_btn').addEventListener('click', function(){
-  loadDataIntoModal(projArr[5])
-})
-document.querySelector('#proj_7_btn').addEventListener('click', function(){
-  loadDataIntoModal(projArr[6])
-})
-
-//Data for Modal for project
- function loadDataIntoModal(data){  
-  modalTitle.innerHTML = data.title
-  languages1.innerHTML = data.language1
- languages2.innerHTML = data.language2
- languages3.innerHTML = data.language3
- projectImg.src = data.projectImage
- projectContent.innerHTML = data.projectTxt
- seeLiveBtn.href = data.live
- seeSrcBtn.href = data.source
-}
-  //TODO: CONTINUE GETTING ELEMENTS WITH querySelector OR getElementById AND REWRITE VALUES
- 
+document.querySelector('#proj_2_btn').addEventListener('click', () => {
+  loadDataIntoModal(projArr[1]);
+});
+document.querySelector('#proj_3_btn').addEventListener('click', () => {
+  loadDataIntoModal(projArr[2]);
+});
+document.querySelector('#proj_4_btn').addEventListener('click', () => {
+  loadDataIntoModal(projArr[3]);
+});
+document.querySelector('#proj_5_btn').addEventListener('click', () => {
+  loadDataIntoModal(projArr[4]);
+});
+document.querySelector('#proj_6_btn').addEventListener('click', () => {
+  loadDataIntoModal(projArr[5]);
+});
+document.querySelector('#proj_7_btn').addEventListener('click', () => {
+  loadDataIntoModal(projArr[6]);
+});

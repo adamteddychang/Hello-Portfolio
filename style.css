@@ -252,11 +252,11 @@ a {
   left: 0;
   right: 0;
   bottom: 0;
-  display: flex;  
+  display: flex;
   justify-content: center;
-  padding:  1rem;
+  padding: 1rem;
   margin: 2rem 0.5rem;
-  background-color: #fff ;
+  background-color: #fff;
   cursor: pointer;
   visibility: hidden;
   opacity: 0;
@@ -265,10 +265,11 @@ a {
 
 .visible {
   visibility: visible;
-  opacity:2;
+  opacity: 2;
 }
-.modal_title{
-  font-family: 'Roboto',sans-serif;
+
+.modal_title {
+  font-family: 'Roboto', sans-serif;
   font-size: 32px;
   line-height: 44px;
   font-weight: bold;
@@ -276,7 +277,7 @@ a {
 
 #lang-contain_modal {
   display: flex;
-  padding: 0;  
+  padding: 0;
 }
 
 .lang-li_modal {
@@ -291,8 +292,8 @@ a {
   color: #3c3a39;
 }
 
-.modal_dialog {  
-  overflow: auto;  
+.modal_dialog {
+  overflow: auto;
 }
 
 .modal-dialog > * {
@@ -301,7 +302,7 @@ a {
 
 .modal_header {
   display: flex;
-  align-items: center;  
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -320,25 +321,23 @@ a {
 
 #modal_buttons {
   display: flex;
-  
 }
-.see_btns {  
+
+.see_btns {
   padding: 12px;
   border-radius: 0;
   background-color: #ff6b00;
-  margin-right: 1rem;  
+  margin-right: 1rem;
   border: none;
   font-family: 'Inter', sans-serif;
   font-size: 17px;
-  line-height: 24px;  
+  line-height: 24px;
   font-weight: 700;
 }
 
-.see_btns a{
+.see_btns a {
   color: #fff;
 }
-
-
 
 .bk-img-proj {
   display: flex;

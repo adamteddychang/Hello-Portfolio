@@ -23,4 +23,3 @@ navA.forEach(
     menuItem.addEventListener('click', toggleMenu);
   },
 );
-
