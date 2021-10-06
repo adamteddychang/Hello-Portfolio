@@ -18,6 +18,7 @@
     <title>Hello, I am Adam Chang</title>
 </head>
 <body>    
+    <div id="blur">
     <header class="head-container">
          
         <a href=""><h2 id="name">Adam Chang</h2></a>
@@ -75,39 +76,12 @@
                 <li class="lang-li">bootstrap</li>
                 <li class="lang-li">Ruby</li>
             </ul>
-            <button id="st-see-btn" type="button" onclick="project0pop()">See Project</button>
+            <button id="st-see-btn" type="button" onclick="project0pop()" >See Project</button>
         </div>
     </div>
 
 
-    <div id="modal" class="closed">
-        <div class="pophead">
-          <div>
-            <h3 id="popuptitle">hello</h3>
-          </div>
-          <div onclick="closepopup()" class="closebtn">
-            <span><img src="Images/close (2).png" alt=""></span>
-          </div>
-            </div>
-            <ul id="lang-contain-pop">
-                <li class="lang-li">css</li>
-                <li class="lang-li">html</li>
-                <li class="lang-li">Ruby on Rails</li>
-            </ul>
-            <div class="img-p-pop">
-                <img class="popimg" src="#" alt="popupimg">
-                <div class="p-btn">
-                <p class="popupdescription"></p>
-                <div class="btnsdiv">
-                <a id="livebtn" class="st-see-btn_3 livebtn" href="">See live <img src="Images/share.png" alt="" id="shareimg"></a>
-                <a id="srcbtn" class="st-see-btn_3 livebtn" href="">See source <img src="Images/whitegithub.png" alt="" id="sourceimg"></a>
-                </div>
-                </div>
-        
-    </div>        
-          
-        
-      </div>
+    
 
     
     
@@ -190,6 +164,36 @@
         <li class="social_icons"><a href="#"><img src="Images/bk-social-icons/Medium.png" alt="medium link" height="20" class="icons"></a></li>
     </ul>
   </footer>
+</div>
+
+  <div id="modal" class="closed">
+    <div class="pophead">
+      <div>
+        <h3 id="popuptitle">hello</h3>
+      </div>
+      <div onclick="closepopup()" class="closebtn">
+        <span><img src="Images/closebtn.png" alt=""></span>
+      </div>
+        </div>
+        <ul id="lang-contain-pop">
+            <li class="lang-li">css</li>
+            <li class="lang-li">html</li>
+            <li class="lang-li">Ruby on Rails</li>
+        </ul>
+        <div class="img-p-pop">
+            <img class="popimg" src="#" alt="popupimg">
+            <div class="p-btn">
+            <p class="popupdescription"></p>
+            <div class="btnsdiv">
+            <a id="livebtn" class="st-see-btn_3 livebtn" href="">See live <img src="Images/share.png" alt="" id="shareimg"></a>
+            <a id="srcbtn" class="st-see-btn_3 livebtn" href="">See source <img src="Images/whitegithub.png" alt="" id="sourceimg"></a>
+            </div>
+            </div>
+    
+</div>        
+      
+    
+  </div>
 
   <script src="script.js"></script>
   <script src="modal.js"></script>

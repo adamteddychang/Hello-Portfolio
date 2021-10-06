@@ -804,7 +804,7 @@ a {
     height: 90%;
     width: 80%;
     position: fixed;
-    top:5%;
+    top: 5%;
     left: 10%;
   }
 
@@ -843,10 +843,14 @@ a {
     margin-bottom: 2rem;
   }
 
-  #shareimg, #sourceimg{
-  transform: translatey(20%);
-  
-  
+  #shareimg,
+  #sourceimg {
+    transform: translateY(20%);
+  }
+
+  .is-blurred {
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
   }
 
   .bk-img-proj:hover .bk-img-title {

@@ -105,9 +105,11 @@ function projectdetails(index) {
   sourcebutton.href = dataobj.sourcelink;
 
   document.querySelector('#modal').style.display = 'block';
+  document.querySelector('#blur').classList.add('is-blurred');
 }
 function closepopup() {
   document.querySelector('#modal').style.display = 'none';
+  document.querySelector('#blur').classList.remove('is-blurred');
 }
 
 function project0pop() {
@@ -127,8 +129,9 @@ function project0pop() {
   sourcebutton.href = dataobj.sourcelink;
 
   document.querySelector('#modal').style.display = 'block';
+  document.querySelector('#blur').classList.add('is-blurred');
 }
 
-document.querySelectorAll('.st-see-btn_2').onclick = projectdetails(projectsarr);
+document.querySelectorAll('.st-see-btn_2').onclick = projectdetails();
 document.querySelectorAll('.closebtn').onclick = closepopup();
 document.querySelector('#st-see-btn').onclick = project0pop();
