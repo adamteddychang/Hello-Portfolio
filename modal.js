@@ -43,7 +43,7 @@ const modal1 = {
 }
 
 const modal2 = {
-    title :"Professional Art Printing Data",
+    title :"Professional Art Printing Data 1",
     language1: "html",
     language2: "Bootstrap",
     language3: "Ruby ", 
@@ -53,7 +53,7 @@ const modal2 = {
     source:"https://www.github.com" 
 }
 const modal3 = {
-  title :"Professional Art Printing Data",
+  title :"Professional Art Printing Data 2",
   language1: "html",
   language2: "Bootstrap",
   language3: "Ruby ", 
@@ -63,7 +63,7 @@ const modal3 = {
   source:"https://www.github.com" 
 }
 const modal4 = {
-  title :"Professional Art Printing Data",
+  title :"Professional Art Printing Data 3",
   language1: "html",
   language2: "Bootstrap",
   language3: "Ruby ", 
@@ -73,7 +73,7 @@ const modal4 = {
   source:"https://www.github.com" 
 }
 const modal5 = {
-  title :"Professional Art Printing Data",
+  title :"Professional Art Printing Data 4",
   language1: "html",
   language2: "Bootstrap",
   language3: "Ruby ", 
@@ -83,7 +83,7 @@ const modal5 = {
   source:"https://www.github.com" 
 }
 const modal6 = {
-  title :"Professional Art Printing Data",
+  title :"Professional Art Printing Data 5",
   language1: "html",
   language2: "Bootstrap",
   language3: "Ruby ", 
@@ -93,7 +93,7 @@ const modal6 = {
   source:"https://www.github.com" 
 }
 const modal7 = {
-  title :"Professional Art Printing Data",
+  title :"Professional Art Printing Data 6",
   language1: "html",
   language2: "Bootstrap",
   language3: "Ruby ", 
@@ -102,27 +102,46 @@ const modal7 = {
   live:"https://www.google.com",
   source:"https://www.github.com" 
 }
+const projArr = [modal1, modal2, modal3, modal4, modal5, modal6, modal7]
 
-//Data for Modal for first project
- modalTitle.innerHTML = modal1.title
- languages1.innerHTML = modal1.language1
- languages2.innerHTML = modal1.language2
- languages3.innerHTML = modal1.language3
- projectImg.src = modal1.projectImage
- projectContent.innerHTML = modal1.projectTxt
- seeLiveBtn.href = modal1.live
- seeSrcBtn.href = modal1.source
 
- //Data for Modal for second project
- modalTitle.innerHTML = modal2.title
- languages1.innerHTML = modal2.language1
- languages2.innerHTML = modal2.language2
- languages3.innerHTML = modal2.language3
- projectImg.src = modal2.projectImage
- projectContent.innerHTML = modal2.projectTxt
- seeLiveBtn.href = modal2.live
- seeSrcBtn.href = modal2.source
 
 
  
 
+ document.getElementById('st-see-btn').addEventListener('click', function(){
+  loadDataIntoModal(projArr[0])
+})
+
+document.querySelector('#proj_2_btn').addEventListener('click', function(){
+  loadDataIntoModal(projArr[1])
+})
+document.querySelector('#proj_3_btn').addEventListener('click', function(){
+  loadDataIntoModal(projArr[2])
+})
+document.querySelector('#proj_4_btn').addEventListener('click', function(){
+  loadDataIntoModal(projArr[3])
+})
+document.querySelector('#proj_5_btn').addEventListener('click', function(){
+  loadDataIntoModal(projArr[4])
+})
+document.querySelector('#proj_6_btn').addEventListener('click', function(){
+  loadDataIntoModal(projArr[5])
+})
+document.querySelector('#proj_7_btn').addEventListener('click', function(){
+  loadDataIntoModal(projArr[6])
+})
+
+//Data for Modal for project
+ function loadDataIntoModal(data){  
+  modalTitle.innerHTML = data.title
+  languages1.innerHTML = data.language1
+ languages2.innerHTML = data.language2
+ languages3.innerHTML = data.language3
+ projectImg.src = data.projectImage
+ projectContent.innerHTML = data.projectTxt
+ seeLiveBtn.href = data.live
+ seeSrcBtn.href = data.source
+}
+  //TODO: CONTINUE GETTING ELEMENTS WITH querySelector OR getElementById AND REWRITE VALUES
+ 
