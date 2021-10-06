@@ -75,75 +75,39 @@
                 <li class="lang-li">bootstrap</li>
                 <li class="lang-li">Ruby</li>
             </ul>
-            <button id="st-see-btn" type="button">See Project</button>
+            <button id="st-see-btn" type="button" onclick="project0pop()">See Project</button>
         </div>
     </div>
-    <div class="other-proj-contain">
-        <div class="bk-img-proj">
-            <h2 class="bk-img-title">Progessional Art Printing Data</h2>
-            <p class="bk-img-p">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-            <ul class="lang-contain_2">
-                <li class="lang-li_2">html</li>
-                <li class="lang-li_2">bootstrap</li>
-                <li class="lang-li_2">Ruby</li>
-            </ul>
-        <button class="st-see-btn_2" type="button">See Project</button>
-        </div>
-        <div class="bk-img-proj">
-            <h2 class="bk-img-title">Progessional Art Printing Data</h2>
-            <p class="bk-img-p">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-            <ul class="lang-contain_2">
-                <li class="lang-li_2">html</li>
-                <li class="lang-li_2">bootstrap</li>
-                <li class="lang-li_2">Ruby</li>
-            </ul>
-            <button class="st-see-btn_2" type="button">See Project</button>
 
-        </div>
-        <div class="bk-img-proj">
-            <h2 class="bk-img-title">Progessional Art Printing Data</h2>
-            <p class="bk-img-p">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-            <ul class="lang-contain_2">
-                <li class="lang-li_2">html</li>
-                <li class="lang-li_2">bootstrap</li>
-                <li class="lang-li_2">Ruby</li>
-            </ul>
-            <button class="st-see-btn_2" type="button">See Project</button>
 
-        </div>
-        <div class="bk-img-proj">
-            <h2 class="bk-img-title">Progessional Art Printing Data</h2>
-            <p class="bk-img-p">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-            <ul class="lang-contain_2">
-                <li class="lang-li_2">html</li>
-                <li class="lang-li_2">bootstrap</li>
-                <li class="lang-li_2">Ruby</li>
+    <div id="modal" class="closed">
+        <div class="pophead">
+          <div>
+            <h3 id="popuptitle">hello</h3>
+          </div>
+          <div onclick="closepopup()" class="closebtn">
+            <span >X</span>
+          </div>
+            </div>
+            <ul id="lang-contain-pop">
+                <li class="lang-li">css</li>
+                <li class="lang-li">html</li>
+                <li class="lang-li">Ruby on Rails</li>
             </ul>
-            <button class="st-see-btn_2" type="button">See Project</button>
-
+        <img class="popimg" src="#" alt="popupimg">
+        <p class="popupdescription"></p>
+        <div class="btnbar">
+          <a id="livebtn" class="st-see-btn_3" href="">see live <img src="Images/share.png" alt=""></a>
+          <a id="srcbtn" class="st-see-btn_3" href="">see source <img src="Images/whitegithub.png" alt=""></a>
         </div>
-        <div class="bk-img-proj">
-            <h2 class="bk-img-title">Progessional Art Printing Data</h2>
-            <p class="bk-img-p">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-            <ul class="lang-contain_2">
-                <li class="lang-li_2">html</li>
-                <li class="lang-li_2">bootstrap</li>
-                <li class="lang-li_2">Ruby</li>
-            </ul>
-            <button class="st-see-btn_2" type="button">See Project</button>
+      </div>
 
-        </div>
-        <div class="bk-img-proj">
-            <h2 class="bk-img-title">Progessional Art Printing Data</h2>
-            <p class="bk-img-p">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-            <ul class="lang-contain_2">
-                <li class="lang-li_2">html</li>
-                <li class="lang-li_2">bootstrap</li>
-                <li class="lang-li_2">Ruby</li>
-            </ul>
-            <button class="st-see-btn_2" type="button">See Project</button>
+    
+    
 
-        </div>
+
+    <div class="other-proj-contain" id="other-proj-contain">
+        
     </div>
 </section>
 
@@ -221,6 +185,7 @@
   </footer>
 
   <script src="script.js"></script>
+  <script src="modal.js"></script>
   
   
 </body>

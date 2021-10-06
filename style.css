@@ -346,6 +346,63 @@ a {
   margin-bottom: 120px;
 }
 
+#modal {
+  width: 90vw;
+  height: 90vh;
+  background-color: white;
+  position: fixed;
+  top: 5vh;
+  left: 5vw;
+  color: black;
+  border: 1px solid white;
+  backdrop-filter: blur(10px);
+  overflow: scroll;
+}
+
+.closed {
+  display: none;
+}
+
+.popupopen {
+  display: block;
+}
+
+.pophead {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: black;
+  margin: 2rem;
+}
+
+.popupdescription {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#popuptitle {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  margin: 0;
+}
+
+.popimg {
+  width: 80%;
+}
+
+#lang-contain-pop {
+  display: flex;
+  padding-left: 24px;
+}
+
+#lang-contain-pop .lang-li {
+  border: 1px solid black;
+}
+
 #about_me {
   display: flex;
   flex-direction: column;
