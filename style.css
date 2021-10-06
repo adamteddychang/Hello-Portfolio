@@ -356,7 +356,7 @@ a {
   color: black;
   border: 1px solid white;
   backdrop-filter: blur(10px);
-  overflow: scroll;
+  overflow: hidden;
 }
 
 .closed {
@@ -802,7 +802,10 @@ a {
   #modal {
     overflow: hidden;
     height: 90%;
-    width: 90%;
+    width: 80%;
+    position: fixed;
+    top:5%;
+    left: 10%;
   }
 
   #popuptitle {
@@ -838,6 +841,12 @@ a {
     text-align: left;
     padding-left: 2rem;
     margin-bottom: 2rem;
+  }
+
+  #shareimg, #sourceimg{
+  transform: translatey(20%);
+  
+  
   }
 
   .bk-img-proj:hover .bk-img-title {
