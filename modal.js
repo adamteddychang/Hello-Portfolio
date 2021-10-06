@@ -1,6 +1,4 @@
-// create the variables
 
-// Links for modal buttons
 
 const source = 'https://github.com/adamteddychang/Hello-Portfolio';
 const live = 'https://adamteddychang.github.io/Hello-Portfolio/';
