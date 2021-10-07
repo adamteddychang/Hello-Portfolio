@@ -855,8 +855,6 @@ a {
     transform: translateY(20%);
   }
 
-
-
   .bk-img-proj:hover .bk-img-title {
     display: none;
   }
