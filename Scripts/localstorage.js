@@ -13,3 +13,11 @@ formInput.forEach((inp) => {
     addStorageArr();
   });
 });
+
+if (localStorage.getItem('formcont') !== null) {
+  let getformcont = window.localStorage.getItem('formcont');
+  getformcont = JSON.parse(getformcont);
+  document.querySelector('#name_input').value = getformcont.name;
+  document.querySelector('#email').value = getformcont.email;
+  document.querySelector('#message').value = getformcont.message;
+};
