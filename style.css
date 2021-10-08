@@ -360,7 +360,6 @@ a {
   left: 5vw;
   color: black;
   border: 1px solid white;
-  backdrop-filter: blur(10px);
   overflow: hidden;
   text-align: center;
 }
