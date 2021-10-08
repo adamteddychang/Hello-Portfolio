@@ -593,6 +593,14 @@ a {
   padding: 12px;
 }
 
+#warningtxt {
+  font-family: 'Roboto',sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 1rem;
+  }
+
 .submit {
   display: flex;
   padding: 12px;
