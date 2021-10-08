@@ -20,4 +20,4 @@ if (localStorage.getItem('formcont') !== null) {
   document.querySelector('#name_input').value = getformcont.name;
   document.querySelector('#email').value = getformcont.email;
   document.querySelector('#message').value = getformcont.message;
-};
+}
