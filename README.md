@@ -16,7 +16,7 @@ My goal here is to create a mobile and desktop friendly portfolio page.
 
 
 ## Live Link
-(https://adamteddychang.github.io/Hello-Portfolio)
+(https://adamteddychang-portfolio.netlify.app/)
 
 ## Getting Started
 

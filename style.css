@@ -670,10 +670,26 @@ a {
     display: none;
   }
 
+  .head-container {
+    display: flex;
+    align-items: center;
+    height: max-content;
+  }
+
   .nav-list {
     display: flex;
     list-style-type: none;
     margin-right: 124px;
+    transform: translateX(0);
+    height: max-content;
+    position: relative;
+    padding: 0;
+    border: none;
+  }
+
+  .nav-list-items {
+    border: none;
+    padding: 0;
   }
 
   .nav-list-items a {
