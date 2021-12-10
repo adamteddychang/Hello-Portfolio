@@ -13,10 +13,13 @@ My goal here is to create a mobile and desktop friendly portfolio page.
 
 ## Live Demo
 ![screenshot](Images/Template_2_sample.PNG)
+![image](https://user-images.githubusercontent.com/63560332/145602697-37adc9e9-7a2f-440e-87f6-7ffef5a2de78.png)
+
 
 
 ## Live Link
 (https://adamteddychang-portfolio.netlify.app/)
+
 
 ## Getting Started
 
